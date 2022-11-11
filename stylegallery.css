@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+}
+/* Style header*/
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 35px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Style The Top Navigation Bar*/
+
+header .logo{
+  position: relative;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+header .navigation a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+
+header .navigation a:hover{
+  background:#226A80 ;
+}
+
+.content{
+  max-width: 750px;
+  margin: 100px 100px;
+}
+
+.content .info h2{
+  color: #226A80;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.content .info h2 span{
+  color:black;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
+.content .info-btn:hover{
+  background: #0C4F60;
+}
+/* Style footer*/
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.footer a{
+  position: relative;
+  color: #111;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+  text-align: center;
+   padding-top: 20px;
+}
+
+.footer a:not(:last-child){
+  margin-left: 60px;
+}
+
+.footer a:hover{
+  transform: scale(2);
+}
+
+label{
+  display: none;
+}
+
+#check{
+  z-index: 3;
+  display: none;
+}
+
+.container{
+	max-width:1200px;
+	margin:auto;
+	background:#226A80;
+	overflow:auto;
+}
+.places{
+	margin:5px;
+	border:2px solid #010B0E;
+	float:center;
+	width:740px;
+}
+.places img{
+	width:100%;
+	height:auto;
+}
+.desc{
+	 padding:1px;
+	 text-align:center;
+}
+
+ 
+      
